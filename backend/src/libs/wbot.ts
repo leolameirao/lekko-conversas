@@ -7,12 +7,12 @@ import makeWASocket, {
   isJidBroadcast,
   makeCacheableSignalKeyStore,
   useMultiFileAuthState
-} from "@adiwajshing/baileys";
+} from "@whiskeysockets/baileys";
 import P from "pino";
 
 import Whatsapp from "../models/Whatsapp";
 import { logger } from "../utils/logger";
-import MAIN_LOGGER from "@adiwajshing/baileys/lib/Utils/logger";
+import MAIN_LOGGER from "@whiskeysockets/baileys/lib/Utils/logger";
 // import { useMultiFileAuthState } from "../helpers/useMultiFileAuthState";
 import { Boom } from "@hapi/boom";
 import AppError from "../errors/AppError";

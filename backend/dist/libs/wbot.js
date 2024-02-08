@@ -28,10 +28,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initWASocket = exports.removeWbot = exports.getWbot = void 0;
 const Sentry = __importStar(require("@sentry/node"));
-const baileys_1 = __importStar(require("@adiwajshing/baileys"));
+const baileys_1 = __importStar(require("@whiskeysockets/baileys"));
 const Whatsapp_1 = __importDefault(require("../models/Whatsapp"));
 const logger_1 = require("../utils/logger");
-const logger_2 = __importDefault(require("@adiwajshing/baileys/lib/Utils/logger"));
+const logger_2 = __importDefault(require("@whiskeysockets/baileys/lib/Utils/logger"));
 const AppError_1 = __importDefault(require("../errors/AppError"));
 const socket_1 = require("./socket");
 const StartWhatsAppSession_1 = require("../services/WbotServices/StartWhatsAppSession");

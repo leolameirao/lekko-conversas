@@ -18,7 +18,7 @@ import {
   WAMessageStubType,
   WAMessageUpdate,
   delay,
-} from "@adiwajshing/baileys";
+} from "@whiskeysockets/baileys";
 import Contact from "../../models/Contact";
 import Ticket from "../../models/Ticket";
 import Message from "../../models/Message";

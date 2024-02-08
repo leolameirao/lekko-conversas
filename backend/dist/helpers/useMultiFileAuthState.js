@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useMultiFileAuthState = void 0;
-const baileys_1 = require("@adiwajshing/baileys");
+const baileys_1 = require("@whiskeysockets/baileys");
 const cache_1 = require("../libs/cache");
 const useMultiFileAuthState = async (whatsapp) => {
     const writeData = async (data, file) => {

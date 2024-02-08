@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const baileys_1 = require("@adiwajshing/baileys");
+const baileys_1 = require("@whiskeysockets/baileys");
 const KEY_MAP = {
     "pre-key": "preKeys",
     session: "sessions",
